@@ -2,11 +2,11 @@ function palindrome(kata) {
      // you can only write your code here!
     var kalimat = '';
     for (var i = kata.length-1; i >= 0; i--) {
-        kalimat = kalimat + kata[i];
+        kalimat += kata[i];
       
     }
     
-    return kalimat === kata ? true : false;
+    return kalimat === kata 
   }
   
   // TEST CASES
