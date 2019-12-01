@@ -1,4 +1,6 @@
-function palindrome(num) {
+function angkaPalindrome(num) {
+  // you can only write your code here!
+  function palindrome(num) {
     // you can only write your code here!
     var angkaBalik = '';
     for (var i = String(num).length-1; i >= 0; i--) {
@@ -6,8 +8,6 @@ function palindrome(num) {
     }
     return angkaBalik
  }
-function angkaPalindrome(num) {
-  // you can only write your code here!
     if (num != palindrome(num)) {
         while (num != palindrome(num)) {
             num++
