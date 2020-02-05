@@ -5,13 +5,13 @@ var input = [
     ["0003", "Winona", "Ambon", "25/12/1965", "Memasak"],
     ["0004", "Bintang Senjaya", "Martapura", "6/4/1970" , "Berkebun"]
 ]
-function dataHandling(data){
+function dataHandling(input){
     var hasil = ''
-    for (let i = 0; i < data.length; i++) {
-        hasil += 'Nomor Id: '+data[i][0] + '\n'
-        hasil += 'Nama Lengkap: '+data[i][1] + '\n'
-        hasil += 'TTL: '+data[i][2]+ ' '+ data[i][3] + '\n'
-        hasil += 'Hobi: '+data[i][4] + '\n\n' 
+    for (let i = 0; i < input.length; i++) {
+        hasil += 'Nomor Id: '+input[i][0] + '\n'
+        hasil += 'Nama Lengkap: '+input[i][1] + '\n'
+        hasil += 'TTL: '+input[i][2]+ ' '+ input[i][3] + '\n'
+        hasil += 'Hobi: '+input[i][4] + '\n\n' 
     }
     return hasil
 }
