@@ -5,8 +5,7 @@ function palindrome(kata) {
         kalimat += kata[i];
       
     }
-    
-    return kalimat === kata 
+      return kalimat === kata 
   }
   
   // TEST CASES
