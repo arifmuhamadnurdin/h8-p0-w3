@@ -9,7 +9,6 @@ function pasanganTerbesar(num) {
       if(angkaTerbesar < angka[j]){
           angkaTerbesar = angka[j]
       }
-      
   }
   return angkaTerbesar 
 }

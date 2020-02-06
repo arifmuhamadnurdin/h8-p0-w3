@@ -1,5 +1,5 @@
 function tentukanDeretAritmatika(arr) {
-  // you can only write your code here!
+  // you can only write your code here! 
   var beda = arr[1]-arr[0]
   var aritmatika = true
   for (let i = 0; i < arr.length-1; i++) { 

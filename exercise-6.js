@@ -21,6 +21,7 @@ function angkaPalindrome(num) {
     return num
 }
 
+
 // TEST CASES
 console.log(angkaPalindrome(8)); // 9
 console.log(angkaPalindrome(10)); // 11
