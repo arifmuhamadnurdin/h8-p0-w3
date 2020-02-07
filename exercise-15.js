@@ -9,7 +9,7 @@ function groupAnimals(animals) {
             tampung[a].push(animals[i])
       }else{
       a++
-      tampung[a] = [animals[i]]
+      tampung[a] = [animals[i]] 
           }
   }
     return tampung

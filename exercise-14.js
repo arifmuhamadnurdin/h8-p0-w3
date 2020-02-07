@@ -1,5 +1,6 @@
 function mengelompokkanAngka(arr) {
   // you can only write your code here!
+  
   var arr_result = [[],[],[]];
   for (var i = 0; i < arr.length; i++) {
     if (arr[i] % 3 === 0) {
